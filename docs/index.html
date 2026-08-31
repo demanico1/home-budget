@@ -1,0 +1,44 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8">
+<title>가계 지출 리포트</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#F7F6F1;--surface:#fff;--ink:#1E211C;--muted:#6B7065;--faint:#9AA091;--line:#E7E7DE;--accent:#1F7A5C}
+@media(prefers-color-scheme:dark){:root{--bg:#171815;--surface:#212320;--ink:#E9EAE3;--muted:#A3A99C;--faint:#767C6F;--line:#31352D;--accent:#40AD84}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:520px;margin:0 auto;padding:40px 18px 60px;min-height:100dvh}
+.head{margin-bottom:26px}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--accent);margin:0 0 6px}
+h1{font-size:24px;font-weight:700;margin:0 0 4px}
+.sub{font-size:13px;color:var(--muted);margin:0}
+.list{display:flex;flex-direction:column;gap:10px}
+.mcard{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;background:var(--surface);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.04);transition:transform .1s}
+.mcard:active{transform:scale(.98)}
+.mtitle{display:flex;align-items:baseline;gap:8px}
+.yr{font-size:13px;color:var(--faint)}
+.mo{font-size:20px;font-weight:700}
+.marrow{font-size:18px;color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+.foot{margin-top:30px;font-size:11px;color:var(--faint);text-align:center;line-height:1.7}
+.lockmini{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:5px 12px;margin-top:4px}
+</style></head><body>
+<div class="wrap">
+  <div class="head">
+    <p class="eyebrow">HOUSEHOLD SPENDING</p>
+    <h1>가계 지출 리포트</h1>
+    <p class="sub">월별 리포트 · 4개 카드사 + 쿠팡 통합 분석</p>
+    <div class="lockmini">🔒 비밀번호로 보호됨 · 나만 열람</div>
+  </div>
+  <div class="list">
+    <a class="mcard" href="2026-08.html">
+      <div class="mtitle"><span class="yr">2026</span><span class="mo">8월</span></div>
+      <div class="marrow">→</div>
+    </a>
+  </div>
+  <div class="foot">각 리포트는 AES-256으로 암호화되어 있습니다.<br>비밀번호는 기기에서만 사용되며 어디에도 전송되지 않습니다.</div>
+</div>
+</body></html>
